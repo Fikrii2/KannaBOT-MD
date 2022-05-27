@@ -50,9 +50,11 @@ global.snh = 'https://nhentai.net/g/365296/'
 
 /*============== PAYMENT ==============*/
 global.pdana = '0812-3373-8677'
+global.povo = '0812-3373-8677'
 global.pgopay = '0812-3373-8677'
 global.ppulsa = '0813-8112-8083'
 global.ppulsa2 = '0812-3373-8677'
+global.psaweria = 'https://saweria.com/Fikrii21'
 
 /*============== NOMOR ==============*/
 global.nomorbot = '6289513223760'
