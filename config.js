@@ -43,8 +43,8 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 /*============== SOCIAL ==============*/
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://instagram.com/FiktiiSky'
-global.sgh = 'https://github.com/AsepKopling'
+global.sig = 'https://instagram.com/'
+global.sgh = 'https://github.com/'
 global.sgc = 'https://chat.whatsapp.com/KpS9eHNALBs3mXXJGtzuZE'
 global.snh = 'https://nhentai.net/g/365296/'
 
@@ -57,9 +57,9 @@ global.ppulsa2 = '0812-3373-8677'
 global.psaweria = 'https://saweria.com/Fikrii21'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6289513223760'
+global.nomorbot = '6283872120720'
 global.nomorown = '6281233738677'
-global.namebot = 'Impasta 𝗕𝗢𝗧'
+global.namebot = '𝑴𝒊𝒌𝒖'
 global.nameown = 'FikriiSky'
 
 
@@ -113,13 +113,13 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 Impasta 𝗕𝗢𝗧 あ⁩ 」' //Main Watermark
-global.wm2 = 'Impasta - 𝗕𝗢𝗧 あ⁩'
-global.wm3 = '⫹⫺ Impasta 𝗕𝗢𝗧'
+global.wm = '                「 𝑴𝒊𝒌𝒖 」' //Main Watermark
+global.wm2 = '𝑴𝒊𝒌𝒖'
+global.wm3 = '⫹⫺ 𝑴𝒊𝒌𝒖'
 global.botdate = `⫹⫺ 𝗗𝗮𝘁𝗲: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
 global.titlebot = `⫹⫺ RPG BOT Whatsapp | By ${global.nameown}`
-global.author = '                「 Impasta 𝗕𝗢𝗧 あ⁩ 」'
+global.author = '                「 𝑴𝒊𝒌𝒖 」'
 
 
 /*============== LOGO ==============*/
@@ -157,7 +157,7 @@ global.dxlsx = 'application/vnd.openxmlformats-officedocument.spreadsheetml.shee
 global.dpdf = 'application/pdf'
 global.drtf = 'text/rtf'
 
-global.thumbdoc = 'https://telegra.ph/file/6e45318d7c76f57e4a8bd.jpg'
+global.thumbdoc = 'https://telegra.ph/file/3e6ccaa1f08b335f9ee16.jpg'
 
 /*=========== FAKE SIZE ===========*/
 global.fsizedoc = '99999999999999' // default 10TB
@@ -187,7 +187,7 @@ global.htjava = '⫹⫺' //hiasan Doang :v
 
 /*============== STICKER WM ==============*/
 global.stickpack = '.'
-global.stickauth = `☂︎\nI\nM\nn\nP\nA\S\Nt\nA\n-\n𝗕\n𝗢\n𝗧\n✦\n\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
+global.stickauth = `𝑴𝒊𝒌𝒖⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
 global.multiplier = 38 // The higher, The harder levelup
 
 /*============== EMOJI ==============*/
