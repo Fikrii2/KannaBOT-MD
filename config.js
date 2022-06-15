@@ -123,8 +123,8 @@ global.author = '                「 𝑴𝒊𝒌𝒖 」'
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/c73f47b440241b66cb9d3.jpg' //Main Thumbnail
-global.imagebot = 'https://telegra.ph/file/793b6accf3758f092742a.jpg'
+global.thumb = 'https://telegra.ph/file/3e6ccaa1f08b335f9ee16.jpg' //Main Thumbnail
+global.imagebot = 'https://telegra.ph/file/3e6ccaa1f08b335f9ee16.jpg'
 global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
 global.thumbs = ['https://telegra.ph/file/5a882b8558fd1d2bd03fa.jpg', 'https://telegra.ph/file/f87047ec6e5f0d4a9ea91.jpg', 'https://telegra.ph/file/88edbb01051b397574def.jpg','https://telegra.ph/file/7957630a57078c5ec0400.jpg']
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
@@ -187,7 +187,7 @@ global.htjava = '⫹⫺' //hiasan Doang :v
 
 /*============== STICKER WM ==============*/
 global.stickpack = '.'
-global.stickauth = `𝑴𝒊𝒌𝒖⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
+global.stickauth = 𝑴𝒊𝒌𝒖 Whatsapp BOT\nwa.me/${global.nomorbot}`
 global.multiplier = 38 // The higher, The harder levelup
 
 /*============== EMOJI ==============*/
