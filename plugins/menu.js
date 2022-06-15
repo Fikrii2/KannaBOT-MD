@@ -57,7 +57,7 @@ const defaultMenu = {
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	let tags
 	let teks = `${args[0]}`.toLowerCase()
-  let arrayMenu = ['all', 'anime', 'update', 'maker', 'edukasi', 'news', 'random', 'game', 'xp', 'islamic', 'stiker', 'rpg', 'kerangajaib', 'quotes', 'admin', 'group', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database','quran', 'vote', 'nsfw', 'audio', 'jadibot', 'info', 'owner', 'nocategory']
+  let arrayMenu = ['all', 'anime', 'vn', 'update', 'maker', 'edukasi', 'news', 'random', 'game', 'xp', 'islamic', 'stiker', 'rpg', 'kerangajaib', 'quotes', 'admin', 'group', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database','quran', 'vote', 'nsfw', 'audio', 'jadibot', 'info', 'owner', 'nocategory']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
   'main': 'Main',
@@ -69,6 +69,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
   'quotes': 'Quotes',
   'fun': 'Fun',
   'anime': 'Anime',
+  'vn': 'Vn Imuet',
   'admin': 'Admin',
   'group': 'Group',
   'vote': 'Voting',
@@ -94,6 +95,9 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
   }
   if (teks == 'anime') tags = {
     'anime': 'Anime'
+  }
+ if (teks == 'vn') tags = {
+    'vn': 'Vn Imuet'
   }
   if (teks == 'nsfw') tags = {
     'nsfw': 'Nsfw'
@@ -239,6 +243,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	{title: `🐚 ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada ketua club"},
 	{title: `📑 ${pmenus} Quotes`, rowId: ".? quotes", description: "Random Inspirasi"},
 	{title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "Kamu wibu ya bang?"},
+        {title: `😣${pmenus} Vn`, rowId: ".? vn", description: "Mendengarkan Vn Yang Sangat Imuet"},
 	{title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagne"},
 	{title: `🌟 ${pmenus} Premium`, rowId: ".? premium", description: "Only premium Users"},
 	{title: `🎭 ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Bicara dengan orang tidak dikenal"},
