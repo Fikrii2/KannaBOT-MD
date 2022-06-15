@@ -187,7 +187,7 @@ global.htjava = '⫹⫺' //hiasan Doang :v
 
 /*============== STICKER WM ==============*/
 global.stickpack = '.'
-global.stickauth = 𝑴𝒊𝒌𝒖 Whatsapp BOT\nwa.me/${global.nomorbot}`
+global.stickauth = `𝑴𝒊𝒌𝒖 Whatsapp BOT\nwa.me/${global.nomorbot}`
 global.multiplier = 38 // The higher, The harder levelup
 
 /*============== EMOJI ==============*/
